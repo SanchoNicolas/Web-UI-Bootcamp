@@ -63,3 +63,24 @@ this will show you all the commits that were made on that branch.
 This will be the flow that we will follow on this Bootcamp, everytime you do some changes or add some files you should 
 push them on your branch so i can review and we can have conversation about differents approaches.
 
+
+# HTML
+
+First of all let put this clear for you: HTML is not a programming languaje.
+It's your turn to search some info here:
+```bash
+ What is HTML?
+ How can we create an HTML file and see his content on our browser?
+ Which ones are the most common HTML tags?
+```
+some links that can help you:
+What is HTML: https://desarrolloweb.com/articulos/que-es-html.html
+a good course here,, follow those videos: https://www.youtube.com/watch?v=cqMfPS8jPys&t=370s
+* Here you have some tasks to do on HTML that i'll like yo see on your branch to review:
+
+```bash
+ Create an HTML file called "index.html".
+On this file i will like you to create the following:
+Create a title, create a paraph, put a title to the page, create an order list, unorder list and a link.
+Push this changes to your branch so i can review them.
+```
