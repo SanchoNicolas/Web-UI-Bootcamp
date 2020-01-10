@@ -1,0 +1,42 @@
+html *{
+	margin:0;
+}
+
+body {
+	background-color: ghostwhite;
+}
+#cabezera {
+	background-color: darkorange;
+	text-align: center;
+	text-decoration: solid;
+}
+
+#lista1 {
+	margin-left: 90px;
+	font-style: italic;
+}
+
+#lista2 {
+	margin-bottom: 60px;
+	font-size: 1.5em;
+	font-style: oblique;
+}
+.header {
+	background-color: black;
+	color: whitesmoke;
+	
+}
+#title {
+	margin-left: 45px;
+}
+
+.ButtonMove {
+	text-align: right;
+}
+a {
+	text-decoration: none;
+	color: whitesmoke;
+}
+.Botones {
+	margin: 5px;
+}
