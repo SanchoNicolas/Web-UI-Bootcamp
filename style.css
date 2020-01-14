@@ -3,23 +3,25 @@ html *{
 }
 
 body {
-	background-color: ghostwhite;
+	background-color: whitesmoke ;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #cabezera {
-	background-color: darkorange;
+	background-color: whitesmoke;
 	text-align: center;
 	text-decoration: solid;
 }
 
 #lista1 {
-	margin-left: 90px;
 	font-style: italic;
+	background-color: #aecec0;
 }
 
 #lista2 {
 	margin-bottom: 60px;
 	font-size: 1.5em;
-	font-style: oblique;
+	margin-left: 70%;
+
 }
 .header {
 	background-color: black;
@@ -28,6 +30,12 @@ body {
 }
 #title {
 	margin-left: 45px;
+	color: #d1ebd9;
+
+}
+
+a.Botones {
+	color: white;
 }
 
 .ButtonMove {
@@ -35,8 +43,26 @@ body {
 }
 a {
 	text-decoration: none;
-	color: whitesmoke;
+	color: black;
 }
 .Botones {
 	margin: 5px;
+}
+
+a:hover  {
+	color: red;
+}
+
+#Buttons {
+	margin-left: 70%;
+}
+
+#P1 {
+	background-color: #b5d1dd;
+	border: solid 1px;
+}
+
+#Links {
+	background-color: #8fb5f1;
+	border: solid 1px;
 }
