@@ -1,0 +1,64 @@
+.header {
+    height: 20vh;
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.contenido {
+    height: 80%;
+}
+
+#logo {
+    float: left;
+    width: 110px;
+    background-color: black;
+}
+
+.logo {
+   width: 40%;
+   padding: 2.5px; 
+}
+
+.moverderecha {
+    float: right;
+    width: 60%;
+    background-color: #060606;
+}
+
+.menus {
+    float: right;
+    width: 60%;
+    margin-right: 96px;
+}
+
+.barra {
+    display: flex;
+    margin-top: 33px;
+}
+
+.busqueda {
+    width: 130%;
+}
+
+a.boton {
+    text-decoration: none;
+    margin: 5px 5px 5px 5px;
+    background-color: #b7cfd2;
+    padding: 5px 11px 5px 11px;
+}
+body {
+    margin: 0;
+}
+
+a.boton:hover {
+    background-color: whitesmoke;
+}
+
+#buscar {
+    width: 280px;
+}
+
+#fondo {
+    width: 100%;
+}
