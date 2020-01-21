@@ -7,6 +7,8 @@
 
 .contenido {
     height: 80%;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 #logo {
@@ -49,6 +51,10 @@ a.boton {
 }
 body {
     margin: 0;
+    background-image: url(Fondo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a.boton:hover {
@@ -61,4 +67,67 @@ a.boton:hover {
 
 #fondo {
     width: 100%;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+
+li >a {
+    text-decoration: none;
+}
+
+.la_lista_que_esta_oculta_en_perifericos {
+    display: none;
+}
+
+
+.periferico:hover .la_lista_que_esta_oculta_en_perifericos {
+    display: block;
+}
+
+.la_lista_que_esta_oculta_en_gabinetes {
+    display: none;
+}
+
+
+.gabinete:hover .la_lista_que_esta_oculta_en_gabinetes {
+    display: block;
+}
+
+.la_lista_que_esta_oculta_en_memorias {
+    display: none;
+}
+
+
+.memoria:hover .la_lista_que_esta_oculta_en_memorias {
+    display: block;
+}
+
+.la_lista_que_esta_oculta_en_mother {
+    display: none;
+}
+
+
+.mother:hover .la_lista_que_esta_oculta_en_mother {
+    display: block;
+}
+
+.la_lista_que_esta_oculta_en_procesadores {
+    display: none;
+}
+
+
+.procesadores:hover .la_lista_que_esta_oculta_en_procesadores {
+    display: block;
+}
+
+.la_lista_que_esta_oculta_en_discos {
+    display: none;
+}
+
+
+.discos:hover .la_lista_que_esta_oculta_en_discos {
+    display: block;
 }
